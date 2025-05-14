@@ -1,8 +1,8 @@
 user= "matheus"
-key="1234"
+key= 1234
 
-login= input("Informe o login do usuario: ")
-senha= input("Informe o senha do usuario: ")
+login= str(input("Informe o login do usuario: "))
+senha= int(input("Informe o senha do usuario: "))
 
 if login ==user and senha ==key:
     print("Acesso permitido")
