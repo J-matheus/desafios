@@ -7,7 +7,7 @@ while True:
     if cont==4:
         break
 media=soma/4
-if media>=7 and media<=10:
+if media>=7:
     print(f"Com a nota {media}, O aluno está aprovado.")
 elif media>=5 and media<=6:
     print(f"Com a nota {media}, o aluno está de recuperação.")
